@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "mit",
   "private": false,
   "description": "<DESCRIPTION>",
@@ -30,6 +30,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "husky install",
     "dev": "vite",
     "start": "run-s dev",
     "preview": "vite preview",
@@ -45,13 +46,16 @@
     "build:tsc": "tsc",
     "build:vite": "vite build",
     "build": "run-s build:*",
-    "prepare": "husky install"
+    "commit": "cz",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@types/jest": "^29.2.3",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.44.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
@@ -66,6 +70,7 @@
     "lint-staged": "^13.0.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.0",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.0.3",
     "typescript": "*",
     "vite": "^3.2.4",

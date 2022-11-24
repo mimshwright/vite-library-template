@@ -1,3 +1,5 @@
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 # Vite npm package template
 
 A template for an npm package using:
@@ -10,6 +12,7 @@ A template for an npm package using:
 
 ## Setup
 
+1. Install packages.
 1. Edit the top of the package.json file to include the correct package name and description. You can find and replace for "<LIBRARY>"
 1. Edit the README.md
 
