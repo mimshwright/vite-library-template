@@ -1,14 +1,15 @@
 # Vite npm package template
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
 A template for an npm package using:
 
 - vite
 - typescript
 - jest
 - prettier & eslint
+- controlled commits with commitizen, lint-staged, etc.
 - & more!
+
+Inspired by this post by [Onur Önder](https://onderonur.netlify.app/blog/creating-a-typescript-library-with-vite/)
 
 ## Setup
 
@@ -24,6 +25,8 @@ A template for an npm package using:
     - `cz` & `release` : see below
 
 ## Commits & Releases
+
+Code is automatically linted before being committed. I recommend installing the plugins for eslint and prettier in your code editor. You can attempt to fix linting issues with `yarn fix`.
 
 When ready to commit, please commit using `yarn cz` to use commitizen for standard format commits.
 
