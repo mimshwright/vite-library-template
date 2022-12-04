@@ -54,6 +54,7 @@
     "commit": "cz",
     "ci": "run-s commit",
     "release": "standard-version",
+    "pushpub": "git push --follow-tags origin main && yarn publish",
     "predeploy": "run-s build:demo",
     "deploy": "gh-pages -d demo"
   },

@@ -24,6 +24,7 @@ Inspired by this post by [Onur Önder](https://onderonur.netlify.app/blog/creati
     - `test` : test with jest. Also `test:coverage` and `test:watch`
     - `build` : bundle the code
     - `commit` & `release` : see below
+    - `pushpub`: Used after `release` it pushes and publishes the library.
     - `deploy`: Build the demo code (index.html) and publish to gh-pages
 
 ## Commits & Releases
@@ -34,6 +35,6 @@ When ready to commit, please commit using `yarn commit` to use commitizen for st
 
 When ready to release use `yarn release` with the `-r patch|minor|major` flag (default without the flag is `patch`).
 
-You'll then need to publish your changes separately.
+You'll then need to publish your changes separately. That can be done with `yarn pushpub`.
 
 You can deploy an updated demo to github pages using `yarn deploy`
