@@ -20,12 +20,12 @@ Inspired by this post by [Onur Önder](https://onderonur.netlify.app/blog/creati
 
 ## Scripts
 
-    - `lint` : lint the code. You can also do `fix` to auto-fix.
-    - `test` : test with jest. Also `test:coverage` and `test:watch`
-    - `build` : bundle the code
-    - `commit` & `release` : see below
-    - `pushpub`: Used after `release` it pushes and publishes the library.
-    - `deploy`: Build the demo code (index.html) and publish to gh-pages
+- `lint` : lint the code. You can also do `fix` to auto-fix.
+- `test` : test with jest. Also `test:coverage` and `test:watch`
+- `build` : bundle the code
+- `commit` & `release` : see below
+- `pushpub`: Used after `release` it pushes and publishes the library.
+- `deploy`: Build the demo code (index.html) and publish to gh-pages
 
 ## Commits & Releases
 
