@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "license": "mit",
   "private": false,
   "description": "<DESCRIPTION>",
@@ -77,6 +77,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-typescript": "^0.14.0",
     "gh-pages": "^4.0.0",
     "husky": "^8.0.2",
