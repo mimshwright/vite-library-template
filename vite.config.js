@@ -6,7 +6,6 @@ import dts from "vite-plugin-dts";
 // https://vitejs.dev/guide/build.html#library-mode
 // https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
 export default defineConfig({
-  base: `/${pkg.name}/`,
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.ts"),

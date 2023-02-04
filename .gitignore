@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 demo
+!src/demo
+coverage
 
 # Editor directories and files
 .vscode/*
